@@ -1,0 +1,7 @@
+.place {
+  display: flex;
+  width: 984px;
+  max-height: 660px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}

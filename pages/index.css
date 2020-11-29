@@ -1,1 +1,156 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/Inter/inter.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_en/header__link_en.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__title/_text/lead__title_text.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__subtitle/_text/lead__subtitle_text.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_paragraph/intro__list_paragraph.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph/_text/place__paragraph_text.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__title/_text/place__title_text.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__bottom-block/place__bottom-block.css);
+@import url(../blocks/place/__top-block/place__top-block.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__title/_text/cover__title_text.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__subtitle/_text/cover__subtitle_text.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    padding-top: 56px;
+    max-width: 928px;
+  }
+
+  .lead__subtitle_text {
+    margin: 32px 0 56px;
+  }
+
+  .intro {
+    margin: 92px 286px 92px 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    margin: 28px 24px 0 24px;
+  }
+
+  .lead__subtitle_text {
+    margin: 32px 0 56px;
+  }
+
+  .intro {
+    margin: 88px 24px 88px 24px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .header {
+    margin: 25px 20px 0 20px;
+  }
+
+  .lead__title_text {
+    font-size: 52px;
+    line-height: 60px;
+  }
+
+  .lead__subtitle_text {
+    margin: 30px 0 52px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .intro {
+    margin: 72px 20px 72px 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    margin: 18px 18px 0 18px;
+  }
+
+  .lead__title_text {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .lead__subtitle_text {
+    margin: 32px 0 56px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .intro {
+    margin: 68px 18px 68px 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 16px 16px 0 16px;
+  }
+
+  .header__link {
+    font-size: 18px;
+  }
+
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+
+  .lead {
+    max-width: 320px;
+  }
+
+  .lead__title_text {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .lead__subtitle_text {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 16px 0 40px;
+  }
+  .intro {
+    margin: 64px 16px 64px 16px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: left;
+    padding-right: 40px;
+  }
+}

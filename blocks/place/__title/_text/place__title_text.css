@@ -1,0 +1,9 @@
+.place__title_text {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #ffffff;
+  margin: 0;
+  flex-wrap: wrap;
+  z-index: 1;
+}
