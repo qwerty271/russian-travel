@@ -1,9 +1,12 @@
 .photo-grid {
   display: grid;
+  grid-auto-flow: row;
   min-height: 671px;
+  max-width: 1184px;
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);
   gap: 16px;
   justify-content: center;
   padding-bottom: 92px;
+  margin: 0 auto;
 }

@@ -1,4 +1,4 @@
 .cover__subtitle {
-  width: 360px;
+  max-width: 360px;
   z-index: 2;
 }

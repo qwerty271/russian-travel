@@ -1,7 +1,10 @@
 .place {
   display: flex;
-  width: 984px;
-  max-height: 660px;
+  max-width: 984px;
   flex-wrap: wrap;
   margin-top: 80px;
+}
+
+.place:first-child {
+  margin-top: 0;
 }

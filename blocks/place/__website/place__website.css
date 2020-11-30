@@ -1,5 +1,5 @@
 .place__website {
-  width: 456px;
-  height: 46px;
+  max-width: 456px;
+  max-height: 46px;
   margin-left: 40px;
 }

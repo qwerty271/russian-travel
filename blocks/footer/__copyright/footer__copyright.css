@@ -4,6 +4,7 @@
   line-height: 16px;
   color: #ffffff;
   margin: 0;
+  text-align: center;
 }
 
 .footer__copyright::before {

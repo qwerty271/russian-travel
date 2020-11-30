@@ -3,11 +3,9 @@
   font-size: 18px;
   line-height: 163%;
   color: #ffffff;
-  z-index: 1;
-  flex-wrap: wrap;
   margin: 0;
 }
 
-.place__paragraph_text:first-child {
-  margin-bottom: 26px;
+.place__paragraph_text:nth-child(2) {
+  margin-top: 26px;
 }

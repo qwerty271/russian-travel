@@ -1,4 +1,4 @@
 .cover__title {
   max-width: 560px;
-  z-index: 2;
+  margin: 0 0 32px 0;
 }
