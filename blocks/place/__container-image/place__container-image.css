@@ -1,0 +1,5 @@
+.place__container-image {
+  max-width: 460px;
+  max-height: 460px;
+  grid-area: place__container-image;
+}
