@@ -1,9 +1,8 @@
-.place__title_text {
+.cover__heading {
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   color: #ffffff;
+  text-align: center;
   margin: 0;
-  flex-wrap: wrap;
-  z-index: 1;
 }
