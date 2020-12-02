@@ -48,7 +48,7 @@
     max-width: 928px;
   }
 
-  .lead__subtitle_text {
+  .lead__text {
     margin: 32px 0 56px;
   }
 
@@ -79,10 +79,10 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
-    margin: 28px 24px 0 24px;
+    margin: 0 24px;
   }
 
-  .lead__subtitle_text {
+  .lead__text {
     margin: 32px 0 56px;
   }
 
@@ -105,7 +105,7 @@
     grid-column-gap: 28px;
   }
 
-  .place__title_text {
+  .place__heading {
     font-size: 42px;
     line-height: 46px;
   }
@@ -122,15 +122,15 @@
 
 @media screen and (min-width: 426px) and (max-width: 767px) {
   .header {
-    margin: 25px 20px 0 20px;
+    margin: 0 20px;
   }
 
-  .lead__title_text {
-    font-size: 52px;
-    line-height: 60px;
+  .lead__heading {
+    font-size: 50px;
+    line-height: 55px;
   }
 
-  .lead__subtitle_text {
+  .lead__text {
     margin: 30px 0 52px;
     font-size: 24px;
     line-height: 28px;
@@ -149,7 +149,7 @@
     margin: 0 8px;
   }
 
-  .place__title_text {
+  .place__heading {
     font-size: 35px;
     line-height: 38px;
   }
@@ -173,7 +173,7 @@
     margin-bottom: 24px;
   }
 
-  .cover__title_text {
+  .cover__heading {
     font-size: 42px;
     line-height: 45px;
   }
@@ -196,15 +196,15 @@
 
 @media screen and (max-width: 425px) {
   .header {
-    margin: 18px 18px 0 18px;
+    margin: 0 18px;
   }
 
-  .lead__title_text {
+  .lead__heading {
     font-size: 45px;
     line-height: 50px;
   }
 
-  .lead__subtitle_text {
+  .lead__text {
     margin: 32px 0 56px;
     font-size: 20px;
     line-height: 25px;
@@ -238,7 +238,7 @@
     grid-row-gap: 32px;
   }
 
-  .place__title_text {
+  .place__heading {
     font-size: 33px;
     line-height: 36px;
     margin-left: 16px;
@@ -248,7 +248,7 @@
     display: none;
   }
 
-  .place__paragraph_text {
+  .place__text {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -262,12 +262,12 @@
     margin-bottom: 18px;
   }
 
-  .cover__title_text {
+  .cover__heading {
     font-size: 35px;
     line-height: 38px;
   }
 
-  .cover__subtitle_text {
+  .cover__text {
     font-size: 16px;
     line-height: 18px;
   }
@@ -304,7 +304,8 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    margin: 16px 16px 0 16px;
+    margin: 0 16px;
+    padding-top: 16px;
   }
 
   .header__link {
@@ -320,12 +321,12 @@
     max-width: 320px;
   }
 
-  .lead__title_text {
+  .lead__heading {
     font-size: 40px;
     line-height: 44px;
   }
 
-  .lead__subtitle_text {
+  .lead__text {
     font-size: 16px;
     line-height: 20px;
     margin: 16px 0 40px;
@@ -365,7 +366,7 @@
     margin-top: 49px;
   }
 
-  .place__title_text {
+  .place__heading {
     font-size: 32px;
     line-height: 35px;
     margin-left: 16px;
@@ -375,7 +376,7 @@
     display: none;
   }
 
-  .place__paragraph_text {
+  .place__text {
     font-size: 16px;
     margin-left: 16px;
     margin-right: 16px;
@@ -391,7 +392,7 @@
     max-width: 255px;
   }
 
-  .cover__title_text {
+  .cover__heading {
     font-size: 32px;
     line-height: 35px;
   }
@@ -400,7 +401,7 @@
     max-width: 288px;
   }
 
-  .cover__subtitle_text {
+  .cover__text {
     font-size: 14px;
     line-height: 16px;
   }
@@ -411,7 +412,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 64px 118px 24px 16px;
+    margin: 64px 118px 0 16px;
   }
 
   .footer__links {
@@ -430,7 +431,7 @@
     line-height: 14px;
   }
 
-  .footer__links_list {
+  .footer__item {
     margin-bottom: 32px;
   }
 }
