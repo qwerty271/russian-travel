@@ -8,3 +8,10 @@
   padding-bottom: 12px;
   z-index: 1;
 }
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .place__url-heading {
+    font-size: 8px;
+    line-height: 8px;
+  }
+}

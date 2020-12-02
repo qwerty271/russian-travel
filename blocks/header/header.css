@@ -8,3 +8,28 @@
   padding-top: 28px;
   align-items: flex-end;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .header {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    margin: 0 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 0 16px;
+    padding-top: 16px;
+  }
+}

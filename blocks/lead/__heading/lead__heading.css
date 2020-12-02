@@ -5,3 +5,24 @@
   color: #ffffff;
   margin: 0;
 }
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .lead__heading {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__heading {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__heading {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

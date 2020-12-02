@@ -3,3 +3,34 @@
   max-width: 690px;
   margin: 92px 442px 92px 148px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro {
+    margin: 92px 286px 92px 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    margin: 88px 24px 88px 24px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .intro {
+    margin: 72px 20px 72px 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    margin: 68px 18px 68px 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    margin: 64px 16px 64px 16px;
+  }
+}

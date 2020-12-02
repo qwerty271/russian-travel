@@ -5,3 +5,12 @@
   color: #ffffff;
   margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: left;
+    padding-right: 40px;
+  }
+}

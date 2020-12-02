@@ -4,3 +4,15 @@
   justify-content: flex-end;
   grid-area: place__website;
 }
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    display: none;
+  }
+}
