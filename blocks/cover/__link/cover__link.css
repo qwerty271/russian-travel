@@ -1,4 +1,8 @@
 .cover__link {
-  display: contents;
+  display: block;
   text-decoration: none;
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  z-index: 3;
 }

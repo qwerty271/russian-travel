@@ -2,7 +2,7 @@
   display: grid;
   grid-template-areas:
     "place__title place__website"
-    "place__container-image place__paragraph";
+    "place__image place__paragraph";
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   grid-template-rows:
     minmax(min-content, max-content)
@@ -36,7 +36,7 @@
     margin-top: 60px;
     grid-template-areas:
       "place__title"
-      "place__container-image"
+      "place__image"
       "place__paragraph";
     grid-template-columns: minmax(min-content, 425px);
     grid-template-rows:
@@ -49,16 +49,7 @@
 
 @media screen and (max-width: 320px) {
   .place {
-    grid-template-areas:
-      "place__title"
-      "place__container-image"
-      "place__paragraph";
-    grid-template-columns: 320px;
-    grid-template-rows:
-      minmax(min-content, max-content)
-      minmax(min-content, max-content)
-      minmax(min-content, max-content);
-    grid-row-gap: 32px;
     margin-top: 49px;
+    grid-template-columns: 320px;
   }
 }

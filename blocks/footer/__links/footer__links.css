@@ -12,10 +12,3 @@
     margin: 0 0 48px 0;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .footer__links {
-    flex-wrap: wrap;
-    margin: 0 0 48px 0;
-  }
-}

@@ -33,10 +33,6 @@
 @media screen and (max-width: 320px) {
   .footer {
     max-width: 158px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
     margin: 64px 118px 0 16px;
   }
 }
