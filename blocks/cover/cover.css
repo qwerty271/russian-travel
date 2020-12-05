@@ -14,15 +14,6 @@
   position: relative;
 }
 
-.cover__link::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
 .cover::before {
   content: "";
   position: absolute;
@@ -44,8 +35,6 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover {
-    width: 100%;
-    max-width: 100%;
     min-height: 640px;
     margin: 0;
   }
@@ -53,8 +42,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
-    width: 100%;
-    max-width: 100%;
     min-height: 481px;
     margin: 0;
   }
@@ -62,8 +49,6 @@
 
 @media screen and (min-width: 426px) and (max-width: 767px) {
   .cover {
-    width: 100%;
-    max-width: 100%;
     min-height: 266px;
     margin: 0;
   }
@@ -71,8 +56,6 @@
 
 @media screen and (max-width: 425px) {
   .cover {
-    width: 100%;
-    max-width: 100%;
     min-height: 201px;
     margin: 0;
   }
@@ -80,8 +63,6 @@
 
 @media screen and (max-width: 320px) {
   .cover {
-    width: 100%;
-    max-width: 100%;
     min-height: 200px;
     margin: 0;
   }
